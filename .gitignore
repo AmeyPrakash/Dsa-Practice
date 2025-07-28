@@ -1,11 +1,32 @@
-# Python
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-.env
+*$py.class
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+VENV/
+
+# VS Code settings (if using VS Code)
 .vscode/
+
+# PyCharm settings (if using PyCharm)
 .idea/
-*.db
+
+# Jupyter Notebook checkpoints (if you use them)
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+.env
+
+# Output & logs
+*.log
+*.out
+*.tmp
+*.swp
